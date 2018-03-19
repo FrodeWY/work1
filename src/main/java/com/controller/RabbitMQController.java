@@ -26,4 +26,8 @@ public class RabbitMQController {
     public void work3() throws IOException, TimeoutException {
         rabbitMQService.receive3();
     }
+    @GetMapping("work4")
+    public void work4 () throws IOException, TimeoutException {
+        rabbitMQService.receive4();
+    }
 }
